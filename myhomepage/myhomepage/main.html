@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=, initial-scale=1.0">
+  <title>My Home Page</title>
+  <link rel="stylesheet" href="css/main.css">
+</head>
+<body>
+  <h1>My Home Page</h1>
+  <div id="time">
+    <p id="today"></p><p id="clock"></p>
+  </div>
+  <h2>PROFILE</h2>
+  <div id="profile">
+    <img src="img/profile.png" alt="프로필">
+    <div id="desc" style="margin: 3px;">
+      <p class="user">이름     :     김준형</p>
+      <p class="user">1전공    :     수학과</p>
+      <p class="user">2전공    :     컴퓨터공학과</p>
+      <p class="user" style="display: none;">주소     :     somewhere</p>
+      <p class="user" style="display: none;">연락처     :     1234-5678</p>
+      <p class="user" id="close" style="display: none;">닫기</p>
+      <p class="user" id="open" >더보기</p>
+    </div>
+  </div>
+  <h2>TO-DO LIST</h2>
+  <div id="list">
+    <form>
+        <ul id="dolist">
+        <input type="text" id="todo" placeholder="할 일을 입력하세요">
+        <button id="btn">To do</button>
+        </ul>
+    </form>
+    <ul id="todolist"></ul>
+  </div>
+
+  <script src="js/main.js"></script>
+</body>
+</html>

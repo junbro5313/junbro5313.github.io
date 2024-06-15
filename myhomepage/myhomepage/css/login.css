@@ -1,0 +1,60 @@
+* {
+  margin:0;
+  padding:0;
+  
+}
+body {
+  padding: 54px;
+  height:auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+h1{
+  width: 800px;
+  background-color: #356ed6;
+  margin: 20px;
+  padding: 30px;
+  text-align: center;
+  font-weight: bold;
+  font-size: 70px;
+  color: #eee;
+  border-radius: 15px;
+}
+h3{
+  color: #eee;
+  padding: 20px;
+  background-color: #365ed6;
+  margin-bottom: 5px;
+  border-radius: 15px;
+}
+#container {
+  text-align: center;
+  width: 404px;
+  margin:50px;
+}
+#login_input {
+  float:left ;
+}
+input[type="text"], input[type="password"]{
+  display:block;
+  width: 295px;
+  height:35px;
+  line-height:35px;
+  border:1px solid #ccc;
+  background-color:#eee;
+  
+}
+#login_bttn > button {
+  border-radius: 15px;
+  float:right;
+  width: 100px;
+  height: 76px;
+  background-color:#365ed6;
+  color:white;
+  border:none;
+}
+#forgot{
+  text-decoration: underline;
+}
